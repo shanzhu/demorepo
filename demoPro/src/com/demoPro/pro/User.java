@@ -8,6 +8,9 @@ public class User {
 	// 电话
 	private String cell;
 	
+	// 地址
+	private String address;
+	
 	/**
 	 * 默认构造
 	 */
@@ -35,6 +38,14 @@ public class User {
 
 	public void setCell(String cell) {
 		this.cell = cell;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	
 }
