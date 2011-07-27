@@ -20,8 +20,10 @@ public class User {
 	 * 有参构造
 	 * @param name
 	 */
-	public User(String name){
+	public User(String name,String cell,String addrtess){
 		this.name = name;
+		this.cell = cell;
+		this.address = address;
 	}
 
 	public String getName() {
